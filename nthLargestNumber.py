@@ -14,7 +14,7 @@ def hello():
  
     #Sorting list of Integers
     numbers.sort()
-    return "Input List is [90, 10, 23, 44, 25, 50, 70] \n"  + "Fourth largest number of list is: \n"+ str(numbers[len(numbers)-4])
+    return "Input List is [90, 10, 23, 44, 25, 50, 70]"+" \n"  + "Fourth largest number of list is: " + "\n"+ str(numbers[len(numbers)-4])
 
 
 if __name__ == '__main__':
