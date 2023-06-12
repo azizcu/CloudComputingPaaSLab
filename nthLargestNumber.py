@@ -10,11 +10,11 @@ app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     # List of Integers
-    numbers = [10, 23, 44, 25, 50, 70]
+    numbers = [90, 10, 23, 44, 25, 50, 70]
  
     #Sorting list of Integers
     numbers.sort()
-    return "Input List is [10, 23, 44, 25, 50, 70] \n"  + "Second largest number of list is: \n"+ str(numbers[len(numbers)-2])
+    return "Input List is [90, 10, 23, 44, 25, 50, 70] \n"  + "Fourth largest number of list is: \n"+ str(numbers[len(numbers)-4])
 
 
 if __name__ == '__main__':
