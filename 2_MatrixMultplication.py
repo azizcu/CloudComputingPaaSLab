@@ -32,7 +32,7 @@ def hello():
        for k in range(len(Y)):
            result[i][j] += X[i][k] * Y[k][j]
 
-    return "Matrix Multiplication of [[123,70,30], [40 ,50,66], [78 ,80,99]] and [[54,58,16,27], [66,78,83,90], [44,56,94,61]] matrixs. So result is 3x4 :"+"\n" + str(result)
+    return "Multiplication of [[123,70,30], [40 ,50,66], [78 ,80,99]] and [[54,58,16,27], [66,78,83,90], [44,56,94,61]]. So result is 3x4 :" + str(result)
 
 
 if __name__ == '__main__':
