@@ -32,7 +32,7 @@ def hello():
        for k in range(len(Y)):
            result[i][j] += X[i][k] * Y[k][j]
 
-    return "Result of the Matrix Multiplication" + str(result)
+    return "Result of the Matrix Multiplication of two 3X3 and 4X3 matrixs. So result is 3x4  : \n\n" + str(result)
 
 
 if __name__ == '__main__':
