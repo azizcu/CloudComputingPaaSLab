@@ -14,7 +14,7 @@ def hello():
  
     #Sorting list of Integers
     numbers.sort()
-    return "Second largest number of list is: "+ str(numbers[len(numbers)-2])
+    return "Second largest number of list is: \n"+ str(numbers[len(numbers)-2])
 
 
 if __name__ == '__main__':
